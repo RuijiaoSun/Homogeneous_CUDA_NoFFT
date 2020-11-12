@@ -11,8 +11,8 @@ for i in LAYERS:
 	Transmission:				Pty[i]	complex<double>		16B * LAYERS
 	Transmission:				Ptz[i]	complex<double>		16B * LAYERS
 	Reflection:				Prx[i]	complex<double>		16B * LAYERS
-	Transmission:				Pry[i]	complex<double>		16B * LAYERS
-	Transmission:				Prz[i]	complex<double>		16B * LAYERS
+	Reflection:				Pry[i]	complex<double>		16B * LAYERS
+	Reflection:				Prz[i]	complex<double>		16B * LAYERS
 	
 
 All parameters we need will be:
